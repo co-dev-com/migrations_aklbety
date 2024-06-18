@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "driver": "postgresql",
+        "host": {
+            "ENV": "POSTGRES_HOSTNAME"
+        },
+        "database": {
+            "ENV": "POSTGRES_DATABASE"
+        },
+        "user": {
+            "ENV": "POSTGRES_USERNAME"
+        },
+        "password": {
+            "ENV": "POSTGRES_PASSWORD"
+        },
+        "port": {
+            "ENV": "POSTGRES_PORT"
+        }
+    }
+  }
