@@ -1,4 +1,4 @@
 CREATE TABLE IF NOT EXISTS users (
-    id INTEGER NOT NULL SERIAL PRIMARY KEY,
-    name varchar(255)  NOT NULL
+    id SERIAL PRIMARY KEY,
+    name varchar(255) NOT NULL
 );
