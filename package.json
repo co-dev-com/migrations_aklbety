@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "migrate:up": "node node_modules/db-migrate/bin/db-migrate"
+    "migrate:up": "node node_modules/db-migrate/bin/db-migrate up",
+    "migrate:create": "node node_modules/db-migrate/bin/db-migrate create"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "db-migrate": "^0.11.14"
+    "db-migrate": "^0.11.14",
+    "db-migrate-pg": "^1.5.2"
   }
 }
