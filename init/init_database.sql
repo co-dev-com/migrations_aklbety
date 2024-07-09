@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS locations (
     deleted_at TIMESTAMP
 );
 
-CREATE INDEX idx_locations ON locations(lat, lan);
+CREATE INDEX IF NOT EXISTS idx_locations ON locations(lat, lan);
 
 CREATE TABLE IF NOT EXISTS sellers (
     id UUID DEFAULT uuid_generate_v4() PRIMARY KEY,
